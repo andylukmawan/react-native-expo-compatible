@@ -15,6 +15,8 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
+import {Constants} from 'react-native-unimodules';
+console.log(Constants.systemFonts);
 
 import {
   Header,
@@ -24,7 +26,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-const App: () => React$Node = () => {
+const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
